@@ -1,0 +1,626 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;
+}
+html, body {
+	background-color: #F7F7F7;
+	overflow-x: hidden;
+}
+p, blockquote {
+	font-size: 15px;
+}
+.brown {
+	color: #F4A460;
+	font-weight: 700;
+}
+.team-brown {
+	color: #F4A460;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.bold {
+	font-weight: 700;
+}
+#changeWidth {
+	width: 90%;
+}
+
+/*NAVBAR*/
+nav {
+	background-color: #F7F7F7;
+}
+.nav-item a {
+	text-transform: uppercase;
+}
+.navbar {
+	padding: 0rem;
+}
+.navbar-inverse .navbar-nav>.active>a {
+	background-color: #c38346;
+	color: #fff !important;
+}
+.navbar-brand img {
+	height: 70px;
+}
+.navbar-nav>li>a {
+    padding: 38px 20px;
+    text-transform: uppercase;
+    color: black !important;
+    letter-spacing: 0.2em;
+    transition: 0.5s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.navbar-nav>li>a:hover {
+	background-color: #c38346 !important;
+	color: #fff !important;
+}
+.navbar-toggler {
+	padding-right: 10px;
+}
+.navbar-toggler img {
+	height: 25px;
+}
+
+/*IMAGE SECTION*/
+.jumbotron {
+    background: url(../images/home-img.jpg) no-repeat bottom;
+    background-size: cover;
+    height: 650px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.jumbotron h1 {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	font-size: 60px;
+	color: #F7E5D9;
+}
+.jumbotron h2 {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 900;
+	color: #F7E5D9;
+}
+.jumbotron #image-btn {
+	background: #c38346;
+	border: none;
+	border-radius: 0;
+	margin-top: 40px;
+	padding: 20px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 0.2em;
+	transition: 0.5s ease-in-out;
+}
+.jumbotron #image-btn:hover {
+	background: rgba(195,131,70,0.5);
+	color: #fff;
+}
+
+/*HOMEPAGE INTRO*/
+#homeContainer {
+	padding-left: 50px;
+	padding-top: 200px;
+}
+#introContainer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #F0EFED;
+	color: black;
+}
+#introContainer h2 {
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+#introContainer p {
+	text-align: justify;
+}
+#coffeeImg {
+	filter: grayscale(50%);
+    position: relative;
+    height: 305px;
+	top: 0px;
+	right: 40px;
+}
+
+/*SERVICES SECTION*/
+#servicesContainer {
+	background: url(../images/services-parallax.jpg) no-repeat center fixed;
+	background-size: cover;
+	padding: 60px 40px;
+	text-align: center;
+	color: white;
+}
+#servicesContainer h2 {
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+#servicesContainer img {
+	display: block;
+	margin: 0 auto;
+}
+#servicesContainer .service-icons {
+	font-size: 25px;
+}
+#servicesContainer h3 {
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+/*TESTIMONIAL SECTION*/
+#testimonialsContainer {
+	background-color: #F0EFED;
+	padding: 60px 40px;
+	color: black;
+}
+#testimonialsContainer h2 {
+	text-transform: uppercase;
+	color: black;
+	margin-bottom: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+#customerImg {
+	height: 150px;
+	border-radius: 100px;
+	box-shadow: 3px 3px 15px grey;
+}
+blockquote {
+	padding: 10px 20px;
+    margin: 0 0 20px;
+    border-left: 5px solid #F4A460;
+    text-align: justify;
+}
+.text-right strong {
+	color: #F4A460;
+}
+
+/*GALLERY SECTION*/
+.modal-backdrop {
+    opacity:0.9 !important;
+}
+#galleryContainer {
+	background-color: #161612;
+	padding-top: 60px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+}
+#galleryContainer h2 {
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+#galleryContainer .row {
+	padding-bottom: 30px;
+}
+#galleryImg:hover {
+    opacity: 0.5;
+    cursor: zoom-in;
+}
+.modal-content {
+	-webkit-animation-name: zoomIn;
+    -webkit-animation-duration: 1.5s;
+    animation-name: zoomIn;
+    animation-duration: 1.5s;
+}
+
+/*ABOUT PAGE*/
+/*Jumbotron*/
+#about-img {
+	background: url(../images/home.jpg) no-repeat bottom;
+	background-size: cover;
+	height: 35vh;
+}
+#about-img h1 {
+	padding-left: 0px;
+	padding-top: 140px;
+}
+#about-intro {
+	padding: 60px 40px;
+	color: white;
+	background-color: #161612;
+}
+#about-intro h2 {
+	margin-bottom: 25px;
+	font-weight: 700;
+}
+#missionContainer, 
+#visionContainer {
+	padding: 60px 40px;
+	color: #fff;
+	text-align: justify;
+} 
+#missionContainer {
+    background: url(../images/mission-img.jpg) no-repeat center;
+	background-size: cover;
+}
+#visionContainer {
+	background: url(../images/vision-img.jpg) no-repeat center;
+	background-size: cover;
+	margin-right: auto;
+	color: black;
+}
+#visionContainer h2 {
+	font-weight: 700;
+}
+#teamContainer {
+	background-color: #F0EFED;
+	padding: 60px 40px;
+	color: black;
+}
+#teamContainer h2 {
+	text-transform: uppercase;
+	color: black;
+	margin-bottom: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+#about-outro {
+	background-color: #242323;
+	padding: 35px 0px;
+	color: #fff;
+}
+#about-outro p {
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 700;
+}
+#about-outro a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+#googleMap {
+	padding: 0px;
+}
+#googleMap iframe {
+	 width: 100%;
+	 height: 400px;
+	 border: 0;
+}
+#contact-info hr {
+	display: block;
+	border: 1px solid #c38346;
+}
+
+
+/*FOOTER*/
+footer {
+	bottom: 0;
+	width: 100%;
+	background-color: #F7F7F7;
+	color: black;
+	text-align: center;
+}
+footer p {
+	font-size: 13px;
+	text-align: justify;
+}
+#footerTitle {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+}
+.footer-brand img {
+	height: 25px;
+    position: relative;
+    top: 55px;
+    right: 150px;
+	transform: rotate(-90deg);
+}
+.footer-nav>p>a {
+    text-transform: uppercase;
+    color: black !important;
+    letter-spacing: 0.2em;
+    transition: 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.footer-nav>p>a:hover {
+	color: #c38346 !important;
+	border-left: 5px solid #F4A460;
+	text-decoration: none;
+	font-weight: 700;
+}
+.footer-nav p {
+	margin-bottom: 0rem;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.footer-nav span {
+	color: black;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.footer-copyright {
+	font-size: 13px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	p {
+		font-size: 13px;
+	}
+	h2 {
+		font-size: 33px;
+	}
+	.team-brown {
+		margin-top: 15px;
+		font-size: 17px;
+		text-align: center;
+	}
+	.bold {
+    	font-size: 15px;
+		text-align: center;
+	}
+
+/*NAVBAR*/
+	.navbar {
+		padding: 0px;
+	}
+	.navbar-brand img {
+		height: 41px;
+		padding-left: 10px;
+	}
+	.navbar-nav>li>a {
+	    padding: 10px;
+	    text-transform: uppercase;
+	    color: black !important;
+	    letter-spacing: 0.1em;
+	    transition: 0.5s ease-in-out;
+	    font-size: 12px;
+	}
+	.navbar-nav .nav-link {
+		padding-left: 10px; 
+	}
+
+/*IMAGE SECTION*/
+	.jumbotron {
+	    height: 260px;
+	}
+	.jumbotron h1 {
+		font-size: 25px;
+	}
+	.jumbotron h2 {
+		font-size: 18px;
+	}
+	.jumbotron #image-btn {
+		margin-top: 15px;
+		padding: 10px 10px;
+		font-size: 10px;
+		letter-spacing: 0.1em;
+	}
+
+/*HOMEPAGE INTRO*/
+	#homeContainer {
+		padding-left: 15px;
+		padding-top: 0px;
+	}
+	#introContainer {
+		padding-top: 25px;
+		height: 43rem;
+	}
+	#introContainer h2 {
+    	font-size: 29px;
+    	text-align: center;
+	}
+	#coffeeImg {
+		filter: grayscale(50%);
+		height: 205px;
+		bottom: 10px;
+		right: 0px;
+		margin: 0 auto;
+		display: block;
+	}
+
+/*SERVICES SECTION*/
+	#servicesContainer h3 {
+		font-size: 20px;
+	}
+
+/*TESTIMONIAL SECTION*/
+	#testimonialsContainer {
+		padding: 20px 20px;
+	}
+	#testimonialsContainer h2 {
+		font-size: 28px;
+	}
+	#customerImg {
+		margin: 0 auto;
+		display: block;
+	}
+	blockquote {
+	    margin: 0 0 0px;
+	    font-size: 13px;
+	}
+	.card-body {
+    	padding: 0rem;
+    }
+/*GALLERY SECTION*/
+	#galleryContainer {
+		padding-right: 0px;
+		padding-left: 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#galleryContainer .row {
+		padding-bottom: 0px;
+	}
+/*ABOUT PAGE*/
+	#about-img {
+		height: 23vh;
+	}
+	#about-img h1 {
+		padding-top: 80px;
+	}
+	#about-intro {
+		padding: 20px 20px;
+		text-align: justify;
+	}
+	#about-intro h2 {
+		font-size: 30px;
+    	text-align: center;
+	}
+	#missionContainer,
+	#visionContainer {
+		padding: 45px 63px;
+		margin: auto;
+		background-color: #fff;
+	}
+	#teamContainer {
+		padding: 20px 20px;
+	}
+	#teamContainer h2 {
+		font-size: 29px;
+	}
+
+/*FOOTER*/
+	#footerTitle {
+		font-size: 18px;
+	}
+	.footer-brand img {
+	    top: 0px;
+	    right: 0px;
+		transform: rotate(0deg);
+	}
+	#mainMenu p {
+		text-align: center;
+	}
+	.footer-nav>p>a,
+	.footer-nav p,
+	.footer-nav span {
+	    font-size: 13px;
+	}
+	.footer-copyright {
+		font-size: 10px;
+	}
+} 	
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation: portrait) {
+
+/*NAVBAR*/
+	.navbar {
+		padding: 0px;
+	}
+	.navbar-brand img {
+		height: 60px;
+		padding-left: 10px;
+	}
+	.navbar-nav>li>a {
+	    padding: 30px;
+	    text-transform: uppercase;
+	    color: black !important;
+	    letter-spacing: 0.1em;
+	    transition: 0.5s ease-in-out;
+	    font-size: 12px;
+	}
+	.navbar-nav .nav-link {
+		padding-left: 10px; 
+	}
+
+/*IMAGE SECTION*/
+	.jumbotron {
+	    height: 550px;	
+	}
+	.jumbotron h1 {
+		font-size: 50px;
+	}
+	.jumbotron h2 {
+		font-size: 30px;
+	}
+	.jumbotron #image-btn {
+		padding: 15px 15px;
+		font-size: 12px;
+	}
+
+/*HOMEPAGE INTRO*/
+	#homeContainer {
+		padding-left: 50px;
+		padding-top: 10px;
+	}
+	#introContainer {
+		height: 40vh;
+    	overflow: hidden;
+	}
+	#introContainer h2 {
+	    font-size: 37px;
+	}
+	#coffeeImg {
+		height: 260px;
+	    top: 65px;
+	    right: 40px;
+	}
+
+/*TESTIMONIALS SECTION*/
+	#testimonialsContainer {
+		padding: 60px 0px;
+	}
+
+/*ABOUT PAGE*/
+	#about-img h1 {
+	    padding-left: 0px;
+	    padding-top: 210px;
+	}
+	#about-intro h2 {
+	    font-size: 37px;
+	}
+
+/*FOOTER*/
+	footer p {
+		font-size: 12px;
+		text-align: left;
+	}
+	.footer-brand img {
+	    right: 90px;
+	}
+	.footer-nav>p>a,
+	.footer-nav p,
+	.footer-nav span,
+	.footer-copyright {
+	    font-size: 13px;
+	}
+	.footer-nav>p>a:hover {
+		color: #c38346 !important;
+		border-left: 5px solid #F4A460;
+		text-decoration: none;
+		font-weight: 700;
+	}
+	.footer-nav p {
+		text-align: left;
+	}
+)
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+/*HOMEPAGE INTRO*/
+	#coffeeImg {
+	    height: 305px;
+	    top: 0px;
+	    right: 40px;
+	}
+}
