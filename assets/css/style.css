@@ -558,6 +558,10 @@ footer p {
 	.hr-brown {
 	    border-bottom: 3px solid #C38346;
 	}
+	#cafeContainer, 
+	#servicesContainer {
+		background-attachment: fixed;
+	}
 
 /*NAVBAR*/
 	.navbar {
