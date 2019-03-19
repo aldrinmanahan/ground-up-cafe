@@ -12,11 +12,11 @@ p, blockquote {
 	font-size: 15px;
 }
 .brown {
-	color: #F4A460;
+	color: #C38346;
 	font-weight: 700;
 }
 .team-brown {
-	color: #F4A460;
+	color: #C38346;
 	font-weight: 700;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -26,6 +26,12 @@ p, blockquote {
 }
 #changeWidth {
 	width: 90%;
+}
+.hr-brown {
+	border-bottom: 5px solid #C38346;
+}
+.hr-blog {
+	border-bottom: 3px solid #F0EFED;
 }
 
 /*NAVBAR*/
@@ -179,11 +185,11 @@ nav {
 blockquote {
 	padding: 10px 20px;
     margin: 0 0 20px;
-    border-left: 5px solid #F4A460;
+    border-left: 5px solid #C38346;
     text-align: justify;
 }
 .text-right strong {
-	color: #F4A460;
+	color: #C38346;
 }
 
 /*GALLERY SECTION*/
@@ -254,6 +260,7 @@ blockquote {
 	margin-right: auto;
 	color: black;
 }
+#missionContainer h2,
 #visionContainer h2 {
 	font-weight: 700;
 }
@@ -270,9 +277,10 @@ blockquote {
 	text-align: center;
 }
 #about-outro {
-	background-color: #242323;
+	background-color: #F7F7F7;
 	padding: 35px 0px;
-	color: #fff;
+	color: black;
+	border-bottom: 3px solid #c38346;
 }
 #about-outro p {
 	margin: 0 auto;
@@ -281,8 +289,189 @@ blockquote {
 }
 #about-outro a:hover {
 	text-decoration: none;
+	color: black;
+}
+
+/*BLOG PAGE*/
+#blog-intro {
+	background: #F0EFED;
+	padding: 60px 40px;
+}
+#blog-intro h2 {
+	font-weight: 700;
+}
+#blog-intro h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	padding-top: 15px;
+	font-weight: 700;
+}
+#blog-intro .blog-par {
+	font-size: 14px;
+	text-align: justify;
+}
+#blogRight {
+	padding-left: 40px;
+}
+.blog-description {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+.blog-description a {
+	color: #C38346;
+}
+#blogImg {
+	height: 150px;
+	box-shadow: 3px 3px 15px grey;
+}
+#blog-intro #blog-btn {
+	background: #c38346;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	-webkit-transition-duration: 0.5s;
+  	-webkit-box-shadow: 0px 0px 0 0 #F0EFED inset , 0px 0px 0 0 #F0EFED inset;
 	color: #fff;
 }
+#blog-intro #blog-btn:hover {
+	color: black;
+	-webkit-box-shadow: 50px 0px 0 0 #F0EFED inset , -50px 0px 0 0 #F0EFED inset;
+}
+.card-header {
+	background-color: #c38346;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+.category {
+	padding: 5px 15px;
+}
+.category:hover {
+	background-color: #D3D1C9;
+	border-left: 5px solid #C38346;
+	text-decoration: none;
+	font-weight: bold;
+}
+.category a {
+	color: black;
+	transition: 0.2s ease-in-out;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*SERVICES PAGE*/
+#menuImg {
+	height: 70vh;
+}
+#cafeContainer {
+	background: url(../images/menu/menu-background.jpg) no-repeat center fixed;
+	background-size: cover;
+	padding: 60px 40px;
+	text-align: center;
+	color: white;
+}
+#cafeContainer h2 {
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+#cafeContainer h4 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#cafeContainer p {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 40px;
+}
+#cafeContainer .dark-col {
+	background: rgba(51,51,51,0.9);
+	padding: 20px;
+}
+#cafeContainer .brown-col {
+	background: rgba(195,131,70,0.9);
+	padding: 20px;
+}
+#cafeContainer .list-group {
+	margin-bottom: 0;
+}
+
+#cafeContainer .list-group-item {
+	background-color: transparent;
+	border: 0;
+	padding:0 ;
+	padding: 10px 0;
+	border-bottom: 2px dotted #fff;
+}
+.box-shadow {
+	box-shadow: rgba(0,0,0,0.5) 0 3px 11px 0;
+}
+#servicesPageContainer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #F0EFED;
+	color: black;
+}
+#servicesPageContainer h2 {
+	font-weight: 700;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#servicesPageContainer p {
+	text-align: justify;
+}
+
+/*CONTACT PAGE*/
+#contactContainer {
+	background: #F0EFED;
+	padding: 60px 40px;
+}
+#contactContainer h2 {
+	font-weight: 700;
+}
+#contactContainer h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	padding-top: 15px;
+	font-weight: 700;
+}
+.contact-info p {
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.contact-info span {
+	color: black;
+	font-size: 14px;
+	font-weight: lighter;
+}
+#contactContainer #blog-btn {
+	background: #c38346;
+	padding: 10px 15px;
+	float: right;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	-webkit-transition-duration: 0.5s;
+  	-webkit-box-shadow: 0px 0px 0 0 #F0EFED inset , 0px 0px 0 0 #F0EFED inset;
+	color: #fff;
+}
+#contactContainer #blog-btn:hover {
+	color: black;
+	-webkit-box-shadow: 50px 0px 0 0 #F0EFED inset , -50px 0px 0 0 #F0EFED inset;
+}
+.form-control {
+	font-size: 15px;
+	border-color: #C38346;
+	border-style: double;
+}
+
+
 #googleMap {
 	padding: 0px;
 }
@@ -295,7 +484,6 @@ blockquote {
 	display: block;
 	border: 1px solid #c38346;
 }
-
 
 /*FOOTER*/
 footer {
@@ -331,7 +519,7 @@ footer p {
 }
 .footer-nav>p>a:hover {
 	color: #c38346 !important;
-	border-left: 5px solid #F4A460;
+	border-left: 5px solid #C38346;
 	text-decoration: none;
 	font-weight: 700;
 }
@@ -349,6 +537,7 @@ footer p {
 	font-size: 13px;
 }
 
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	p {
@@ -365,6 +554,9 @@ footer p {
 	.bold {
     	font-size: 15px;
 		text-align: center;
+	}
+	.hr-brown {
+	    border-bottom: 3px solid #C38346;
 	}
 
 /*NAVBAR*/
@@ -410,11 +602,11 @@ footer p {
 		padding-top: 0px;
 	}
 	#introContainer {
-		padding-top: 25px;
-		height: 43rem;
+		padding: 20px 10px 0px 10px;
+    	height: 41rem;
 	}
 	#introContainer h2 {
-    	font-size: 29px;
+    	font-size: 30px;
     	text-align: center;
 	}
 	#coffeeImg {
@@ -427,6 +619,12 @@ footer p {
 	}
 
 /*SERVICES SECTION*/
+	#servicesContainer {
+		padding: 60px 14px;
+	}
+	#servicesContainer h2 {
+		font-size: 30px;
+	}
 	#servicesContainer h3 {
 		font-size: 20px;
 	}
@@ -449,6 +647,7 @@ footer p {
 	.card-body {
     	padding: 0rem;
     }
+
 /*GALLERY SECTION*/
 	#galleryContainer {
 		padding-right: 0px;
@@ -459,32 +658,113 @@ footer p {
 	#galleryContainer .row {
 		padding-bottom: 0px;
 	}
+
 /*ABOUT PAGE*/
 	#about-img {
 		height: 23vh;
 	}
 	#about-img h1 {
-		padding-top: 80px;
+		padding-top: 60px;
 	}
 	#about-intro {
-		padding: 20px 20px;
+		padding: 20px 10px;
 		text-align: justify;
 	}
 	#about-intro h2 {
-		font-size: 30px;
+		font-size: 29px;
     	text-align: center;
 	}
 	#missionContainer,
 	#visionContainer {
-		padding: 45px 63px;
+		padding: 20px 10px;
 		margin: auto;
-		background-color: #fff;
+		background-size: initial;	
+	}
+	#missionContainer h2,
+	#visionContainer h2 {
+		text-align: center;
 	}
 	#teamContainer {
-		padding: 20px 20px;
+		padding: 20px 10px;
 	}
 	#teamContainer h2 {
 		font-size: 29px;
+	}
+
+/*BLOG PAGE*/
+	#blog-intro {
+		padding: 20px 12px;
+	}
+	#blog-intro h2 {
+		font-size: 30px;
+		text-align: center;
+	}
+	#blog-intro h3 {
+		font-size: 22px;
+	}
+	.blog-description {
+		font-size: 12px;
+	}
+	#blogImg {
+	    margin: 0 auto;
+	    display: block;
+	}
+	#blog-intro .blog-par {
+		padding-top: 15px;
+		font-size: 13px;
+	}
+	#blogRight {
+	    padding-left: 15px;
+	}
+	#sideNav {
+		padding-top: 15px;
+	}
+	.card-header {
+		font-size: 13px;
+	}
+	.category a {
+	    font-size: 13px;
+	}
+
+/*SERVICES PAGE*/
+	#cafeContainer {
+		padding: 20px 10px;
+	}
+	#cafeContainer h2 {
+		font-size: 29px;
+	}
+	#cafeContainer h4 {
+		font-size: 22px;
+	}
+	#cafeContainer p {
+		font-size: 13px;
+	}
+	#cafeContainer .list-group-item {
+	    font-size: 14px;
+	    padding: 5px 0px;
+	}
+	#servicesPageContainer {
+		padding: 20px 0px;
+	}
+	#servicesPageContainer h2 {
+		font-size: 29px;
+		text-align: center;
+	}
+	#servicesPageContainer p {
+		font-size: 13px;
+	}
+
+/*CONTACT PAGE*/
+	#contactContainer {
+	    padding: 20px 10px;
+	}
+	#contactContainer h3 {
+		font-size: 23px;
+	}
+	.form-control {
+		font-size: 13px;
+		border-color: #C38346;
+		border-style: double;
 	}
 
 /*FOOTER*/
@@ -601,7 +881,7 @@ and (orientation: portrait) {
 	}
 	.footer-nav>p>a:hover {
 		color: #c38346 !important;
-		border-left: 5px solid #F4A460;
+		border-left: 5px solid #C38346;
 		text-decoration: none;
 		font-weight: 700;
 	}
