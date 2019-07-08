@@ -143,7 +143,6 @@ nav {
 	padding: 60px 40px;
 	text-align: center;
 	color: white;
-	-webkit-backface-visibility: hidden;
 }
 #servicesContainer h2 {
 	text-transform: uppercase;
