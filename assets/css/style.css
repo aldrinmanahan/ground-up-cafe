@@ -322,7 +322,8 @@ blockquote {
 	color: #C38346;
 }
 #blogImg {
-	height: 150px;
+	width: 350px;
+	height: auto;
 	box-shadow: 3px 3px 15px grey;
 }
 #blog-intro #blog-btn {
@@ -843,6 +844,9 @@ and (orientation: portrait) {
 		padding: 15px 15px;
 		font-size: 12px;
 	}
+	#blogImg {
+    	width: 230px;
+   }
 
 /*HOMEPAGE INTRO*/
 	#homeContainer {
